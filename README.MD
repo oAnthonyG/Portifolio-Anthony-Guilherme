@@ -15,3 +15,7 @@ Foi bem simples apenas repliquei a section principal e diminui o paddim pra que 
 
 Sinto que dava pra ter feito um codigo muito melhor.
 
+
+### Footer ###
+
+Foi bem tranquilo de fazer o rodapé, único problema foi fazer o meu email se encaixar dentro do quadrado, mas não deu muito certo.

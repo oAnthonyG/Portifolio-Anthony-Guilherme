@@ -19,11 +19,12 @@
     <link rel="stylesheet" href="./components/main-header.css">
     <link rel="stylesheet" href="./components/main-section.css">
     <link rel="stylesheet" href="./components/tech-section.css">
+    <link rel="stylesheet" href="./components/main-footer.css">
 
 </head>
 
 <body>
-    
+
     <header class="main_header">
         <h2 class="header__title">anthony</h2>
         <nav class="header__nav">
@@ -32,61 +33,81 @@
             <a class="header__nav__link" href="">Contact</a>
         </nav>
     </header>
-    <main>   
-    <section class="main_section">
-        <article class="main__section__container">
-            <h1 class="container__title">Hi, i am <span class="container__span_color">Anthony Guilherme</span></h1>
-            <p class="container__text">This is my portfolio where I show the best of my work as a web developer.
-            </p>
-            <button class="container__button">Meet my work</button>
-        </article>
-        <div class="img__box__shadow"><img class="main__section__img" src="./imgs/Anthony art.png" alt="anthony art">
-        </div>
-    </section>
+    <main>
+        <section class="main_section">
+            <article class="main__section__container">
+                <h1 class="container__title">Hi, i am <span class="container__span_color">Anthony Guilherme</span></h1>
+                <p class="container__text">This is my portfolio where I show the best of my work as a web developer.
+                </p>
+                <button class="container__button">Meet my work</button>
+            </article>
+            <div class="img__box__shadow"><img class="main__section__img" src="./imgs/Anthony art.png"
+                    alt="anthony art">
+            </div>
+        </section>
 
-    <section class="main_section tech__section">
-        <h2 class="tech__section__title">My <span class="container__span_color">techs</span>.</h2>
-        <div class="tech__container__cards">
-        <article class="tech__section__card">
-            <div class="tech__card__box__color">
-                <h2 class="section__card__title">html</h2>
-                <p class="section__card__text">Uma linguagem de marcação poderosa para a criação de páginas web presente
-                    em todo o
-                    desenvolvimento de sites.</p>
-                <img class="section__card__img" src="./imgs/icon-html.png" alt="">
+        <section class="main_section tech__section">
+            <h2 class="tech__section__title">My <span class="container__span_color">techs</span>.</h2>
+            <div class="tech__container__cards">
+                <article class="tech__section__card">
+                    <div class="tech__card__box__color">
+                        <h2 class="section__card__title">html</h2>
+                        <p class="section__card__text">A powerful markup language for creating web pages present in all
+                            website development.</p>
+                        <img class="section__card__img" src="./imgs/icon-html.png" alt="">
+                    </div>
+                </article>
+                <article class="tech__section__card">
+                    <div class="tech__card__box__color">
+                        <h2 class="section__card__title">css</h2>
+                        <p class="section__card__text">The famous style sheets that always accompany our HTML to make
+                            our pages beautiful and responsive.</p>
+                        <img class="section__card__img" src="./imgs/icon-css.png" alt="">
+                    </div>
+                </article>
+                <article class="tech__section__card">
+                    <div class="tech__card__box__color">
+                        <h2 class="section__card__title">javascript</h2>
+                        <p class="section__card__text">The main programming language of web development and the darling
+                            of devs, it is always there for whatever comes and goes.</p>
+                        <img class="section__card__img" src="./imgs/icon-js.png" alt="">
+                    </div>
+                </article>
+                <article class="tech__section__card">
+                    <div class="tech__card__box__color">
+                        <h2 class="section__card__title">react</h2>
+                        <p class="section__card__text">The famous library for creating powerful web applications made by
+                            Meta. This tool has changed the way of creating websites.</p>
+                        <img class="section__card__img" src="./imgs/icon-react.png" alt="">
+                    </div>
             </div>
-        </article>
-        <article class="tech__section__card">
-            <div class="tech__card__box__color">
-                <h2 class="section__card__title">css</h2>
-                <p class="section__card__text">As famosas folhas de estilo que sempre acompanham nosso HTML para deixar
-                    nossas páginas bonitas e
-                    responsivas.</p>
-                <img class="section__card__img" src="./imgs/icon-css.png" alt="">
-            </div>
-        </article>
-        <article class="tech__section__card">
-            <div class="tech__card__box__color">
-                <h2 class="section__card__title">javascript</h2>
-                <p class="section__card__text">A principal linguagem de programação do desenvolvimento web e a
-                    queridinha dos devs, está sempre presente
-                    para o que der e vier.</p>
-                <img class="section__card__img" src="./imgs/icon-js.png" alt="">
-            </div>
-        </article>
-        <article class="tech__section__card">
-            <div class="tech__card__box__color">
-                <h2 class="section__card__title">react</h2>
-                <p class="section__card__text">A famosa biblioteca de criação de aplicações web poderosas feita pela
-                    Meta. Esta ferramenta mudou o jeito
-                    de criar sites.</p>
-                <img class="section__card__img" src="./imgs/icon-react.png" alt="">
-            </div>
-        </div>
-        </article>
+            </article>
+        </section>
+        <footer class="main_section main__footer">
+            <h2 class="footer__title">Let's work <span class="container__span_color">together</span>.</h2>
+            <p class="footer_text">Contact me through the following ways so we can do something amazing together!</p>
 
-    </section>
-</main>
+            <ul class="footer__list__cards">
+                <li class="footer__card" href="">
+                    <img class="footer__card__img" src="./imgs/mdi_whatsapp.svg" alt="">
+                    <p class="footer__card__text">(12) 99159-4622</p>
+                </li>
+                <li class="footer__card -colorlinkedin" href="">
+                    <img class="footer__card__img" src="./imgs/mdi_linkedin.svg" alt="">
+                    <p class="footer__card__text">in/anthony-guilherme</p>
+                </li>
+                <li class="footer__card -colorgithub" href="">
+                    <img class="footer__card__img" src="./imgs/mdi_github.svg" alt="">
+                    <p class="footer__card__text">oAnthonyG</p>
+                </li>
+                <li class="footer__card -coloremail" href="">
+                    <img class="footer__card__img" src="./imgs/mdi_gmail.svg" alt="">
+                    <p class="footer__card__text">anthonytguilherme@hotmail.com</p>
+                </li>
+            </ul>
+            <h3 class="footer__copyright">All rights reserved - 2022</h3>
+        </footer>
+    </main>
 </body>
 
 </html>
