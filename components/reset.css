@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --color-bg-white: #FFF;
+    --color-box-shadow-black: #000;
+    --color-box-shadow-green: #0C2026;
+    --color-main-purple: #4F3ACF;
+    --color-main-grey: #5F5F5F;
+    --color-whatsapp-box: #25D366;
+    --color-border-grey: #B8B8B8;
+    --color-shadow-grey: #333333;
+    --color-linkedin-box: #0E76A8;
+    --color-github-box: #171515;
+    --color-email-box: #EA4335;
+    --color-text-grey: #C1C1C1;
+}
