@@ -19,3 +19,22 @@ Sinto que dava pra ter feito um codigo muito melhor.
 ### Footer ###
 
 Foi bem tranquilo de fazer o rodapé, único problema foi fazer o meu email se encaixar dentro do quadrado, mas não deu muito certo.
+
+
+
+### Responsive ###
+
+Escolhi fazer o modelo mobile depois pela facilidade visual de fazer e pelo conforto de fazer destok first, mas irei mudar isso nos proximos projetos.
+
+O codigo ficou um pouco bagunçado mas legivel e 100% responsivo.
+
+
+### Final ###
+
+Foi um projeto divertido e desafiador, acredito que apliquei 100% do desing no codigo, levou mais tempo do que eu imaginei pra concluir mas conegui, poderia ter feito em muito menos tempo, mas tentei me focar em deixar o mais bonito e semantico na minha perspectiva.
+
+Design do figma feio pela Afro Academy, codado por mim
+
+### Screenshot ###
+
+![](./FireShot%20Capture%20-%20Anthony%20Guilherme.png)
