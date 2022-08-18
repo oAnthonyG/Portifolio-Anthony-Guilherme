@@ -12,9 +12,13 @@
     --color-main-grey: #5F5F5F;
     --color-whatsapp-box: #25D366;
     --color-border-grey: #B8B8B8;
-    --color-shadow-grey: #333333;
+    --color-nav-text-grey: #333333;
     --color-linkedin-box: #0E76A8;
     --color-github-box: #171515;
     --color-email-box: #EA4335;
     --color-text-grey: #C1C1C1;
+
+    --title-font: 'Source Code Pro', monospace;
+    --text-fonts: 'Inter', sans-serif;
+
 }
