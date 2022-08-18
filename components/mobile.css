@@ -1,0 +1,80 @@
+@media screen and (max-width:1200px){
+    .tech__container__cards{
+        flex-wrap: wrap;
+    }
+    .footer__list__cards{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:900px){
+    .img__box__shadow{
+        display: none;
+    }
+    .container__button{
+        width: 245px;
+    }
+    .main_section{
+        padding: 4em;
+    }
+    .tech__section .tech__section__title{
+        text-align: center;
+    }
+    .tech__container__cards{
+        justify-content: center;
+    }
+    .main__footer .footer__title{
+        text-align: center;
+    }
+    .main__footer .footer__list__cards{
+        justify-content: center;
+    }
+    .footer__card{
+        width: 90%;
+    }
+    .footer__card.-coloremail{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .main_header{
+        justify-content: center;
+        margin-bottom: 11rem;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__title{
+        margin: 0;
+    }
+    .main_section{
+        padding: 2em;
+    }
+    .main_section::after{
+        width: 90%;
+        bottom: -10px;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .header__title{
+        margin: 0;
+    }
+    .main_section{
+        padding: 1rem;
+    }
+    
+    .container__text{
+        width: 90%;
+        text-align: start;
+    }
+    .container__button{
+        width: 100%;
+        
+    }
+    .main__section__container{
+        text-align: center;
+    }
+}
