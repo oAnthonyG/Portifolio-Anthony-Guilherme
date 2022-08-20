@@ -1,49 +1,7 @@
-.main_section.main__footer{
-    display: block;
-}
-
-.footer__title{
-    font-size: 2em;
-    margin-bottom: 2em;
-}
-.footer_text{
-    color: var(--color-main-grey);
-    margin-bottom: 3.5rem;
-}
-
-.footer__list__cards{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 5rem;
-}
-.footer__card{
-    display: flex;
-    align-items: center;
-    width: 17rem;
-    height: 3rem;
-    
-    color: var(--color-bg-white);
-    background-color: var(--color-whatsapp-box);
-}
-.footer__card.-colorlinkedin{
-    background-color: var(--color-linkedin-box);
-}
-.footer__card.-colorgithub{
-    background-color: var(--color-github-box);
-}
-.footer__card.-coloremail{
-    width: 20rem;
-    background-color: var(--color-email-box);
-}
-
-
-.footer__card__img{
-    margin-left: 1rem;
-    margin-right: 1.9rem;
-}
 
 .footer__copyright{
     font-size: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
     color: var(--color-text-grey);
 }

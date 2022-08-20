@@ -2,7 +2,7 @@
     .tech__container__cards{
         flex-wrap: wrap;
     }
-    .footer__list__cards{
+    .contacts__list__cards{
         flex-wrap: wrap;
     }
 }
@@ -23,16 +23,17 @@
     .tech__container__cards{
         justify-content: center;
     }
-    .main__footer .footer__title{
+    
+    .main__contacts .contacts__title{
         text-align: center;
     }
-    .main__footer .footer__list__cards{
+    .main__contacts .contacts__list__cards{
         justify-content: center;
     }
-    .footer__card{
+    .contacts__card{
         width: 90%;
     }
-    .footer__card.-coloremail{
+    .contacts__card.-coloremail{
         width: 90%;
     }
 }

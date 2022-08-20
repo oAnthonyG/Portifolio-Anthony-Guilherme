@@ -1,0 +1,47 @@
+.main_section.main__contacts{
+    display: block;
+    padding-bottom: 2rem;
+}
+.main_section.main__contacts::after{
+    border-bottom: none;
+}
+
+.contacts__title{
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.contacts_text{
+    color: var(--color-main-grey);
+    margin-bottom: 3.5rem;
+}
+
+.contacts__list__cards{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+.contacts__card{
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    height: 3rem;
+    
+    color: var(--color-bg-white);
+    background-color: var(--color-whatsapp-box);
+}
+.contacts__card.-colorlinkedin{
+    background-color: var(--color-linkedin-box);
+}
+.contacts__card.-colorgithub{
+    background-color: var(--color-github-box);
+}
+.contacts__card.-coloremail{
+    width: 20rem;
+    background-color: var(--color-email-box);
+}
+
+
+.contacts__card__img{
+    margin-left: 0.4rem;
+    margin-right: 1.4rem;
+}
